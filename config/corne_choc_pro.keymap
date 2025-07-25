@@ -76,11 +76,11 @@
             display-name = "Button";
              bindings = <
             // |------------|------------|------------|------------|------------|------------|-------|------|------------|------------|------------|------------|------------|------------|
-                &trans       &trans       &trans       &trans       &trans       &trans       &trans  &trans &trans       &trans       &trans       &trans       &trans       &trans
+                &trans       &kp LC(Z)    &kp LC(X)   &kp LC(C)     &kp LC(V)    &kp LC(Y)    &trans  &trans &kp LC(Y)    &kp LC(V)    &kp LC(C)    &kp LC(X)    &kp LC(Z)    &trans
             // |------------|------------|------------|------------|------------|------------|-------|------|------------|------------|------------|------------|------------|------------|
-                &trans       &kp LGUI     &kp LALT     &kp LCTRL    &kp LSHFT    &trans       &trans  &trans &trans       &trans       &trans       &trans       &trans       &trans
+                &trans       &kp LGUI     &kp LALT     &kp LCTRL    &kp LSHFT    &trans       &trans  &trans &trans       &kp LSHFT    &kp LCTRL    &kp LALT     &kp LGUI     &trans
             // |------------|------------|------------|------------|------------|------------|-------|------|------------|------------|------------|------------|------------|------------|
-                &trans       &trans       &trans       &trans       &trans       &trans                      &trans       &trans       &trans       &trans       &trans       &trans
+                &trans       &kp LC(Z)    &kp LC(X)   &kp LC(C)     &kp LC(V)    &kp LC(Y)                   &kp LC(Y)    &kp LC(V)    &kp LC(C)    &kp LC(X)    &kp LC(Z)    &trans
             // |------------|------------|------------|------------|------------|------------|-------|------|------------|------------|------------|------------|------------|------------|
                                                        &trans       &trans       &trans                      &trans       &trans  &trans
             >;
@@ -110,7 +110,7 @@
             // |------------|------------|------------|------------|------------|------------|-------|------|------------|------------|------------|------------|------------|------------|
                 &trans       &kp GRAVE    &kp N1       &kp N2       &kp N3       &kp BSLH                    &trans       &trans       &trans       &trans       &trans       &trans
             // |------------|------------|------------|------------|------------|------------|-------|------|------------|------------|------------|------------|------------|------------|
-                                                       &kp DOT       &kp N0       &kp MINUS                   &trans       &trans  &trans
+                                                       &kp DOT      &kp N0       &kp MINUS                   &trans       &trans  &trans
             >;
         };
 
@@ -118,13 +118,13 @@
             display-name = "Sym";
              bindings = <
             // |------------|------------|------------|------------|------------|------------|-------|------|------------|------------|------------|------------|------------|------------|
-                &trans       &trans       &trans       &trans       &trans       &trans       &trans  &trans &trans       &trans       &trans       &trans       &trans       &trans
+                &trans       &kp LBRC     &kp AMPS     &kp STAR     &kp LPAR     &kp RBRC     &trans  &trans &trans       &trans       &trans       &trans       &trans       &trans
             // |------------|------------|------------|------------|------------|------------|-------|------|------------|------------|------------|------------|------------|------------|
-                &trans       &trans       &trans       &trans       &trans       &trans       &trans  &trans &trans       &kp LSHFT    &kp LCTRL    &kp LALT     &kp LGUI     &trans
+                &trans       &kp COLON    &kp DLLR     &kp PRCNT    &kp CARET    &kp PLUS     &trans  &trans &trans       &kp LSHFT    &kp LCTRL    &kp LALT     &kp LGUI     &trans
             // |------------|------------|------------|------------|------------|------------|-------|------|------------|------------|------------|------------|------------|------------|
-                &trans       &trans       &trans       &trans       &trans       &trans                      &trans       &trans       &trans       &trans       &trans       &trans
+                &trans       &kp TILDE2   &kp EXCL     &kp AT       &kp HASH     &kp PIPE                    &trans       &trans       &trans       &trans       &trans       &trans
             // |------------|------------|------------|------------|------------|------------|-------|------|------------|------------|------------|------------|------------|------------|
-                                                       &trans       &trans       &trans                      &trans       &trans  &trans
+                                                       &kp LPAR     &kp RPAR     &kp UNDER                   &trans       &trans  &trans
             >;
         };
 
@@ -132,13 +132,13 @@
             display-name = "Fun";
              bindings = <
             // |------------|------------|------------|------------|------------|------------|-------|------|------------|------------|------------|------------|------------|------------|
-                &trans       &kp F12       &kp F7       &kp F8       &kp F8       &kp PSCRN       &trans  &trans &trans       &trans       &trans       &trans       &trans       &trans
+                &trans       &kp F12       &kp F7       &kp F8       &kp F8       &kp PSCRN   &trans  &trans &trans       &trans       &trans       &trans       &trans       &trans
             // |------------|------------|------------|------------|------------|------------|-------|------|------------|------------|------------|------------|------------|------------|
-                &trans       &kp F11       &kp F4       &kp F5       &kp F6       &kp SLCK       &trans  &trans &trans       &kp LSHFT    &kp LCTRL    &kp LALT     &kp LGUI     &trans
+                &trans       &kp F11       &kp F4       &kp F5       &kp F6       &kp SLCK    &trans  &trans &trans       &kp LSHFT    &kp LCTRL    &kp LALT     &kp LGUI     &trans
             // |------------|------------|------------|------------|------------|------------|-------|------|------------|------------|------------|------------|------------|------------|
-                &trans       &kp F10       &kp F1       &kp F2       &kp F3       &kp PAUSE_BREAK             &trans       &trans       &trans       &trans       &trans       &trans
+                &trans       &kp F10       &kp F1       &kp F2       &kp F3       &kp PAUSE_BREAK            &trans       &trans       &trans       &trans       &trans       &trans
             // |------------|------------|------------|------------|------------|------------|-------|------|------------|------------|------------|------------|------------|------------|
-                                                       &kp K_APP      &kp SPACE       &kp TAB                      &trans       &trans  &trans
+                                                       &kp K_APP      &kp SPACE       &kp TAB                 &trans       &trans  &trans
             >;
         };
 
